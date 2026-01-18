@@ -35,17 +35,21 @@
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: auto;
+    
 }
 .section-heading h2{
     font-size:35px ;
     margin-bottom: 30px;
+    color:#181818;
 }
 .section-heading p{
     font-size: 18;
     line-height: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-left: 22.5px;
     margin-right: 22.5px;
+    color: #757575;
 }
 /* main style */
 header{
@@ -109,7 +113,7 @@ nav .menu a{
     /* image add korle je default space ashe ta delete korar jonno eta use kora hoi. */
     vertical-align: middle;
 }
-#about{
+#about, #skills{
     padding-top: 130px;
 }
 #about .about-container{
@@ -119,6 +123,12 @@ nav .menu a{
     text-align: center;
     background-color: #FFF8F3;    
     padding: 131px 156px;
+}
+#skills .skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* background-color: white; */
 }
 #about .about-container .about-info{
     display: flex;
@@ -134,4 +144,34 @@ nav .menu a{
     font-size: 20px;
     line-height: 30px;
     color: #474747;
+}
+.skill-info{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 24px;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+.skill-card{
+    padding: 30px;
+    /* border: 1px solid green; */
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000032;
+}
+.skill-card h3{
+    font-size: 20px;
+    /* padding-top: 30px; */
+    font-weight: bold;
+    color:#181818;
+    margin-bottom: 20px;
+}
+.skill-card p{
+    /* padding-top: 20px; */
+    font-size: 16px; 
+    line-height: 28px;
+    color: #757575;
+}
+.skill-card img{
+    width: 44px;
+    margin-bottom: 30px; 
 }
