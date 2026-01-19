@@ -113,7 +113,7 @@ nav .menu a{
     /* image add korle je default space ashe ta delete korar jonno eta use kora hoi. */
     vertical-align: middle;
 }
-#about, #skills{
+#about, #skills,#resume{
     padding-top: 130px;
 }
 #about .about-container{
@@ -174,4 +174,53 @@ nav .menu a{
 .skill-card img{
     width: 44px;
     margin-bottom: 30px; 
+}
+.resume-container{
+    /* width: 71%; */
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-top: 114px; */
+    color: #474747;
+        margin-bottom: 30px;
+
+}
+.resume-card{
+    margin-bottom: 30px;
+    max-width: 511px;
+    margin-right: 47px;
+}
+.card-title{
+       /* margin-top: 30px;  */
+    margin-bottom: 10px;
+        font-size: 25px;
+        font-weight:bold;
+        color: #474747;
+
+}
+.card-info{
+    margin-bottom: 20px;
+        font-size: 20px;
+        font-weight:600px;
+        color: #757575;
+        /* max-width: 309px; */
+}
+.card-text{
+    line-height: 28px;
+    font-size: 16px;
+    /* max-width: 511px; */
+    color:#757575;
+    /* margin-bottom: 30px; */
+    /* margin-right: 47px; */
+}
+.resume-card button{
+    display: block;;
 }
